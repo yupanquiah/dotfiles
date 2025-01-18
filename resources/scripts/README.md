@@ -23,3 +23,7 @@ netsh wlan show profile
 ```powershell
 netsh wlan show profile name="network_name" key=clear
 ```
+- Copy the content of a file to the clipboard.
+```powershell
+Get-Conent file_path | Set-Clipboard
+```
