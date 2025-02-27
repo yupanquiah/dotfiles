@@ -1,0 +1,25 @@
+name: ypnq
+accent: '#23272E'
+cursor: '#F5E0DC'
+background: '#23272E'
+foreground: '#ABB2BF'
+details: darker
+terminal_colors:
+  normal:
+    black: "#3F4451"
+    red: "#E05561"
+    green: "#8CC265"
+    yellow: "#D18F52"
+    blue: "#4AA5F0"
+    magenta: "#C162DE"
+    cyan: "#42B3C2"
+    white: "#D7DAE0"
+  bright:
+    black: "#4F5666"
+    red: "#FF616E"
+    green: "#A5E075"
+    yellow: "#F0A45D"
+    blue: "#4DC4FF"
+    magenta: "#DE73FF"
+    cyan: "#4CD1E0"
+    white: "#E6E6E6"
