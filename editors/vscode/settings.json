@@ -68,6 +68,7 @@
   },
   "extensions.ignoreRecommendations": true,
   "files.insertFinalNewline": true,
+  "git.autofetch": true,
   "github.copilot.enable": {
     "*": true,
     "plaintext": true,
@@ -87,6 +88,7 @@
   "oneDarkPro.bold": true,
   "oneDarkPro.editorTheme": "One Dark Pro Darker",
   "oneDarkPro.vivid": true,
+  "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "terminal.integrated.fontFamily": "'MesloLGM NF'",
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
@@ -106,6 +108,7 @@
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": true,
   "workbench.productIconTheme": "fluent-icons",
-  "security.workspace.trust.untrustedFiles": "open",
-  "git.autofetch": true
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  }
 }
