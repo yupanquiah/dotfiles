@@ -1,5 +1,6 @@
 {
   "breadcrumbs.enabled": false,
+  "diffEditor.renderGutterMenu": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.colorDecorators": true,
@@ -135,5 +136,5 @@
   "workbench.editorAssociations": {
     "*.svg": "default"
   },
-  "chat.commandCenter.enabled": false,
+  "chat.commandCenter.enabled": false
 }
