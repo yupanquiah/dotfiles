@@ -78,7 +78,7 @@
   "explorer.decorations.colors": true,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "package.json": "package-lock.json, pnpm-lock.yaml, .gitignore, astro.config.mjs, tsconfig.json, tailwind.config.cjs"
+    "package.json": "package-lock.json, pnpm-lock.yaml, .gitignore, astro.config.mjs, .gitattributes, .prettierrc, .prettierignore, .oxlintrc.json"
   },
   "extensions.ignoreRecommendations": true,
   "files.trimTrailingWhitespace": true,
@@ -115,7 +115,6 @@
   "typescript.format.semicolons": "remove",
   "window.title": "${rootName}",
   "window.commandCenter": false,
-  "window.menuBarVisibility": "toggle",
   "window.customTitleBarVisibility": "never",
   "window.titleBarStyle": "custom",
   "workbench.activityBar.location": "hidden",
@@ -136,5 +135,6 @@
   "workbench.editorAssociations": {
     "*.svg": "default"
   },
-  "chat.commandCenter.enabled": false
+  "chat.commandCenter.enabled": false,
+  "window.menuBarVisibility": "compact"
 }
