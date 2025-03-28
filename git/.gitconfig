@@ -1,3 +1,5 @@
 [user]
 	name = Humberto Yupanqui Apaza
 	email = yupanquiah@gmail.com
+[init]
+	defaultBranch = main
