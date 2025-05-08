@@ -137,16 +137,5 @@
   },
   "window.menuBarVisibility": "compact",
   "github.copilot.chat.agent.thinkingTool": true,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "remote.WSL.fileWatcher.polling": false,
-  "files.watcherExclude": {
-    "**/node_modules/**": true,
-    "**/dist/**": true,
-    "**/vendor/**": true
-  },
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/dist": true,
-    "**/vendor": true
-  }
+  "javascript.updateImportsOnFileMove.enabled": "never"
 }
