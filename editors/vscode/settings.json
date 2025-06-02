@@ -27,7 +27,7 @@
   "editor.indentSize": "tabSize",
   "editor.hideCursorInOverviewRuler": true,
   "editor.insertSpaces": true,
-  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "on",
   "editor.linkedEditing": true,
   "editor.matchBrackets": "always",
@@ -89,7 +89,7 @@
     "*": true,
     "plaintext": true,
     "markdown": true,
-    "scminput": false
+    "scminput": true
   },
   "go.toolsManagement.autoUpdate": true,
   "go.removeTags": {
@@ -125,7 +125,6 @@
   "workbench.layoutControl.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false,
-  "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.enableStickyScroll": true,
   "workbench.tree.renderIndentGuides": "none",
@@ -137,5 +136,9 @@
   },
   "window.menuBarVisibility": "compact",
   "github.copilot.chat.agent.thinkingTool": true,
-  "javascript.updateImportsOnFileMove.enabled": "never"
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "github.copilot.nextEditSuggestions.enabled": true
 }
