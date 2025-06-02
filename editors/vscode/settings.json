@@ -136,9 +136,9 @@
   },
   "window.menuBarVisibility": "compact",
   "github.copilot.chat.agent.thinkingTool": true,
-  "javascript.updateImportsOnFileMove.enabled": "never",
+  "github.copilot.nextEditSuggestions.enabled": true,
   "security.allowedUNCHosts": [
     "wsl.localhost"
   ],
-  "github.copilot.nextEditSuggestions.enabled": true
+  "workbench.startupEditor": "none"
 }
