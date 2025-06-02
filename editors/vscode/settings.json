@@ -78,7 +78,11 @@
   "explorer.decorations.colors": true,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "package.json": "package-lock.json, pnpm-lock.yaml, .gitignore, astro.config.mjs, .gitattributes, .prettierrc, .prettierignore, .oxlintrc.json"
+    "package.json": "package-lock.json, pnpm-lock.yaml",
+    // for slint, prectier, oxc, biome config. etc
+    "eslint.config.js": "eslint.config.js, .prettierrc, .prettierignore",
+    "composer.json": "composer.json, composer.lock, components.json, artisan",
+    ".gitignore": ".github, .gitignore, .gitattributes",
   },
   "extensions.ignoreRecommendations": true,
   "files.trimTrailingWhitespace": true,
