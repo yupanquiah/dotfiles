@@ -46,7 +46,7 @@
   "profiles": {
     "defaults": {
       "adjustIndistinguishableColors": "always",
-      "colorScheme": "yupanquidev",
+      "colorScheme": "ypnq",
       "font": {
         "face": "MesloLGM Nerd Font",
         "size": 9.0,
@@ -112,7 +112,7 @@
       "brightPurple": "#FF90E1",
       "brightCyan": "#74FFE8",
       "brightWhite": "#A6ADC8",
-      "name": "yupanquidev"
+      "name": "ypnq"
     }
   ],
   "showTabsInTitlebar": true,
