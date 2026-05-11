@@ -1,0 +1,15 @@
+# LLMs
+CLAUDE.md
+/.mcp.json
+.claude
+
+# Backups
+*.bak
+*.backup
+*.old
+*.orig
+
+# Custom
+*.no-commit.*
+*.local.*
+tsconfig.tsbuildinfo

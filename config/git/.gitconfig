@@ -1,0 +1,84 @@
+[user]
+	name = Humberto Yupanqui Apaza
+	email = yupanquiah@gmail.com
+
+[init]
+	defaultBranch = main
+
+[fetch]
+	prune = true
+
+[push]
+	default = simple
+	autoSetupRemote = true
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+
+[core]
+	excludesfile = ~/.gitignore_global
+	attributesfile = ~/.gitattributes
+	editor = zed
+	autocrlf = input
+	trustctime = false
+	precomposeunicode = false
+	pager = delta
+	ignorecase = false
+
+[delta]
+	features = line-numbers decorations
+	whitespace-error-style = 22 reverse
+
+[delta "decorations"]
+  commit-decoration-style = bold yellow box ul
+  file-style = bold yellow ul
+  file-decoration-style = none
+
+[help]
+	autocorrect = 1
+
+[diff]
+	indentHeuristic = true
+
+[difftool]
+	prompt = false
+
+[diff "json"]
+	textconv = python -m json.tool
+
+[diff "word"]
+	textconv = docx2txt
+
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+[apply]
+	# Detect whitespace errors when applying a patch
+	whitespace = fix
+
+[pull]
+	rebase = true
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
