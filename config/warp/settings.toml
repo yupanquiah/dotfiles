@@ -1,0 +1,5 @@
+# Appearance settings
+[appearance.text]
+font_name = "Monaspace Neon"
+font_size = 12
+line_height_ratio = 1.3
