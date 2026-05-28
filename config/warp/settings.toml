@@ -1,5 +1,33 @@
-# Appearance settings
+[appearance]
+
 [appearance.text]
+notebook_font_size = 14.0
+font_size = 12.0
 font_name = "Monaspace Neon"
-font_size = 12
-line_height_ratio = 1.3
+font_weight = "bold"
+ai_font_name = "Monaspace Neon"
+match_ai_font = true
+ligature_rendering_enabled = true
+
+[appearance.themes]
+theme = {
+  custom = { name = "Astro", path = 'C:\Users\yupan\AppData\Roaming\warp\Warp\data\themes\astro.yaml' },
+}
+
+[appearance.window]
+override_opacity = 80
+override_blur_texture = true
+
+[general]
+default_session_mode = "terminal"
+
+[session]
+
+[session.new_session_shell_override]
+wsl = "Debian"
+
+[terminal]
+
+[terminal.input]
+input_box_type_setting = "universal"
+honor_ps1 = false
