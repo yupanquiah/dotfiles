@@ -33,6 +33,7 @@ show_panel_in_restored_windows = false
 
 [appearance.tabs]
 workspace_decoration_visibility = "on_hover"
+preserve_active_tab_color = true
 
 [general]
 default_session_mode = "terminal"
