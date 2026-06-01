@@ -1,0 +1,141 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "proxy": "",
+  "git_panel": {
+    "show_count_badge": false,
+    "file_icons": true,
+    "tree_view": true,
+    "sort_by_path": false,
+    "status_style": "label_color",
+    "default_width": 360.0,
+  },
+  "outline_panel": {
+    "indent_size": 20.0,
+  },
+  "use_system_window_tabs": false,
+  "bottom_dock_layout": "contained",
+  "tabs": {
+    "close_position": "left",
+    "file_icons": true,
+    "git_status": false,
+  },
+  "tab_bar": {
+    "show_tab_bar_buttons": true,
+    "show_nav_history_buttons": true,
+    "show": false,
+  },
+  "title_bar": {
+    "show_onboarding_banner": true,
+    "show_user_menu": true,
+    "show_user_picture": true,
+    "show_project_items": true,
+    "show_branch_name": true,
+    "show_branch_status_icon": false,
+  },
+  "terminal": {
+    "button": true,
+  },
+  "status_bar": {
+    "line_endings_button": false,
+    "cursor_position_button": true,
+    "active_language_button": true,
+  },
+  "project_panel": {
+    "hide_hidden": false,
+    "hide_root": true,
+    "drag_and_drop": true,
+    "indent_guides": {
+      "show": "never",
+    },
+    "git_status_indicator": true,
+    "scrollbar": {
+      "horizontal_scroll": false,
+    },
+    "bold_folder_labels": true,
+    "auto_fold_dirs": true,
+    "starts_open": true,
+    "auto_reveal_entries": true,
+    "indent_size": 10.0,
+    "entry_spacing": "standard",
+    "button": true,
+  },
+  "expand_excerpt_lines": 5,
+  "when_closing_with_no_tabs": "platform_default",
+  "show_wrap_guides": true,
+  "agent_ui_font_size": 14.0,
+  "ui_font_family": "Geist",
+  "buffer_line_height": "comfortable",
+  "buffer_font_weight": 400.0,
+  "buffer_font_family": "Monaspace Neon",
+  "cli_default_open_behavior": "existing_window",
+  "agent": {
+    "dock": "right",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini",
+      "enable_thinking": true,
+      "effort": "high",
+    },
+    "sidebar_side": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "disable_ai": false,
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true,
+      "padding": 8,
+    },
+    "disable_git": false,
+  },
+  "tab_size": 2,
+  "edit_predictions": {
+    "mode": "eager",
+    "copilot": {
+      "enable_next_edit_suggestions": true,
+    },
+    "codestral": {
+      "model": "codestral-latest",
+    },
+    "provider": "copilot",
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme",
+  },
+  "agent_servers": {
+    "github-copilot-cli": {
+      "type": "registry",
+    },
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 14.0,
+  "buffer_font_size": 12.0,
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true,
+    "ss01": true,
+    "ss02": true,
+    "ss03": true,
+    "ss04": true,
+    "ss05": true,
+    "ss06": true,
+    "ss07": true,
+    "ss08": true,
+    "ss09": true,
+    "ss10": true,
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "Catppuccin Latte",
+    "dark": "One Dark",
+  },
+}
