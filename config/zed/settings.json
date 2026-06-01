@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "inline_code_actions": true,
+  "gutter": {
+    "min_line_number_digits": 0,
+    "folds": false,
+    "bookmarks": false,
+    "breakpoints": false,
+    "runnables": false,
+    "line_numbers": true
+  },
+  "drag_and_drop_selection": {
+    "enabled": true
+  },
+  "minimum_split_diff_width": 100.0,
+  "excerpt_context_lines": 2,
   "vertical_scroll_margin": 0.0,
   "inlay_hints": {
     "scroll_debounce_ms": 50
@@ -31,6 +45,7 @@
     "default_width": 360.0,
   },
   "outline_panel": {
+    "expand_outlines_with_depth": 100,
     "indent_size": 20.0,
   },
   "use_system_window_tabs": false,
