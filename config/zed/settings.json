@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "vertical_scroll_margin": 0.0,
+  "inlay_hints": {
+    "scroll_debounce_ms": 50
+  },
+  "scrollbar": {
+    "axes": {
+      "vertical": false,
+      "horizontal": false
+    }
+  },
+  "sticky_scroll": {
+    "enabled": true
+  },
+  "horizontal_scroll_margin": 0.0,
   "proxy": "",
   "git_panel": {
     "show_count_badge": false,
