@@ -40,13 +40,8 @@ zstyle ':completion:*' menu no
 export PATH="/home/astro/.local/bin:$PATH"
 
 # aliases
-if [ -f ~/.aliases.sh ]; then
-  . ~/.aliases.sh
-fi
-
-# functions
-if [ -f ~/.functions.sh ]; then
-  . ~/.functions.sh
+if [ -f "$HOME/dev/me/dotfiles/config/shell/zsh/.aliases.sh" ]; then
+  source "$HOME/dev/me/dotfiles/config/shell/zsh/.aliases.sh"
 fi
 
 # bun completions
