@@ -48,6 +48,7 @@ wsl = "Debian"
 [terminal.input]
 input_box_type_setting = "universal"
 honor_ps1 = false
+show_hint_text = true
 
 [agents]
 cloud_conversation_storage_enabled = true
@@ -58,6 +59,8 @@ cloud_conversation_storage_enabled = true
 nld_in_terminal_enabled = true
 include_agent_commands_in_history = true
 ai_command_denylist = ""
+show_agent_tips = true
+ai_auto_detection_enabled = true
 
 [privacy]
 telemetry_enabled = true
