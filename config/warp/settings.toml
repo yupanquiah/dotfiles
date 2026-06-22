@@ -12,16 +12,9 @@ ligature_rendering_enabled = true
 match_notebook_to_monospace_font_size = true
 
 [appearance.themes]
-theme = {
-  custom = { name = "Astro", path = 'C:\Users\yupan\AppData\Roaming\warp\Warp\data\themes\astro.yaml' },
-}
 system_theme = true
-selected_system_themes = {
-  dark = {
-    custom = { name = "Astro", path = 'C:\Users\yupan\AppData\Roaming\warp\Warp\data\themes\astro.yaml' },
-  },
-  light = "light",
-}
+selected_system_themes = { dark = { custom = { name = "Chaskay", path = "chaskay.yaml" } }, light = "light" }
+theme = "adeberry"
 
 [appearance.window]
 override_opacity = 85
