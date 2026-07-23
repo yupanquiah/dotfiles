@@ -31,3 +31,5 @@ function tree
 {
   eza --tree --icons @args
 }
+
+fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
