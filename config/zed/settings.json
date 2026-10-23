@@ -7,6 +7,25 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "markdown_preview": {
+    "heading_font_weight": 600.0
+  },
+  "file_finder": {
+    "file_icons": true
+  },
+  "search": {
+    "case_sensitive": false,
+    "whole_word": false
+  },
+  "show_edit_predictions": true,
+  "instrumentation": {
+    "performance_profiler": {
+      "enabled": false
+    }
+  },
   "inline_code_actions": true,
   "gutter": {
     "min_line_number_digits": 0,
@@ -37,20 +56,22 @@
   "horizontal_scroll_margin": 0.0,
   "proxy": "",
   "git_panel": {
+    "dock": "right",
     "show_count_badge": false,
     "file_icons": true,
     "tree_view": true,
-    "sort_by_path": false,
     "status_style": "label_color",
     "default_width": 360.0,
   },
   "outline_panel": {
+    "dock": "right",
     "expand_outlines_with_depth": 100,
     "indent_size": 20.0,
   },
   "use_system_window_tabs": false,
   "bottom_dock_layout": "contained",
   "tabs": {
+    "show_diagnostics": "off",
     "close_position": "left",
     "file_icons": true,
     "git_status": false,
@@ -71,12 +92,20 @@
   "terminal": {
     "button": true,
   },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+      "max_severity": null
+    }
+  },
   "status_bar": {
     "line_endings_button": false,
     "cursor_position_button": true,
     "active_language_button": true,
   },
+  "colorize_brackets": true,
   "project_panel": {
+    "dock": "right",
     "hide_hidden": false,
     "hide_root": true,
     "drag_and_drop": true,
@@ -105,14 +134,20 @@
   "buffer_font_family": "Monaspace Neon",
   "cli_default_open_behavior": "existing_window",
   "agent": {
-    "dock": "right",
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-5-mini",
-      "enable_thinking": true,
-      "effort": "high",
+    "sandbox_permissions": {
+      "allow_unsandboxed": true,
+      "warn_ntfs_grants": false
     },
-    "sidebar_side": "right",
+    "threads_sidebar": {
+      "position": "right"
+    },
+    "dock": "left",
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-3.5-flash",
+      "enable_thinking": true,
+      "effort": "medium",
+    },
     "favorite_models": [],
     "model_parameters": [],
   },
@@ -126,7 +161,8 @@
   },
   "tab_size": 2,
   "edit_predictions": {
-    "mode": "eager",
+    "disabled_globs": [],
+    "mode": "subtle",
     "copilot": {
       "enable_next_edit_suggestions": true,
     },
@@ -142,6 +178,9 @@
   },
   "agent_servers": {
     "github-copilot-cli": {
+      "default_config_options": {
+        "allow_all": "off"
+      },
       "type": "registry",
     },
   },
@@ -165,6 +204,6 @@
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
-    "dark": "One Dark",
+    "dark": "Chaskay",
   },
 }
